@@ -1,0 +1,207 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.inicio {
+    height: 80vh;
+    /* background-image: url('../images/bg.png'); */  
+}
+
+.inicio img {
+    position: absolute;
+    z-index: 0;
+}
+
+.space-top-sm {
+    margin-top: 32px;
+}
+
+.space-top-md {
+    margin-top: 64px;
+}
+
+.space-top-lg {
+    margin-top: 92px;
+}
+
+.text-inicio {
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+.text-inicio-md {
+    font-size: 2em;
+    color: #ebebeb;
+}
+
+.text-inicio-lg {
+    font-size: 3em;
+    color: #fcfcfc;
+}
+
+/* Testimonial */
+/* Testimonial */
+/* Testimonial */
+
+
+.card {
+    padding-top: 3vw !important;
+    padding-right: 2vw !important;
+    padding-bottom: 3vw !important;
+    padding-left: 2vw !important;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 640px;
+    width: 350px;
+    transition: all .2s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 16px 10px #c9c9c9;
+}
+
+.card img {
+    border: 1px solid whitesmoke;
+    height: 120px;
+    width: 120px;
+}
+
+.card-text {
+    height: 216px;
+    width: 296.8px;
+}
+
+.stars {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.stars li {
+    display: inline-block;
+}
+
+.stars li i {
+    color: #ffdc12;
+}
+
+
+/* Form */
+/* Form */
+/* Form */
+
+#form {
+    background-color: #f9f8f8;
+}
+
+/* Mascorreos */
+/* Mascorreos */
+/* Mascorreos */
+
+#masCorreos {
+    background-color: #274156;
+}
+
+/* contactanos */
+/* contactanos */
+/* contactanos */
+
+#contactanos p {
+    font-weight: 300;
+}
+
+/* Footer */
+/* Footer */
+/* Footer */
+
+footer p {
+    font-size: 14px;
+}
+
+.backToTopA {
+    padding: 10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    text-decoration: none;
+    background-color: #46bae2;
+    text-decoration: none;
+}
+
+#socialFooter ul {
+    list-style: none;
+}
+
+#socialFooter li {
+    display: inline;
+    margin: 0px 10px;
+}
+
+#socialFooter a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#socialFooter .fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #ffc107;
+}
+
+#socialFooter .fa-twitter:hover {
+    background-color: #00aced;
+}
+
+#socialFooter .fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #ffc107;
+}
+#socialFooter .fa-facebook:hover {
+    background-color: #3d5b99;
+}
+
+#socialFooter .fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #ffc107;
+}
+#socialFooter .fa-youtube:hover {
+    background-color: #e64a41;
+}
+
+
+
+/* Colors of emails */
+/* ------------------> */
+
+.hotmail {
+    color: #e94f37;
+}
+
+.outlook {
+    color: #0072C5
+}
+
+.gmail {
+    color: #B52D1B;
+}
+
+.mi-correo {
+    color: #23c9ff;
+}
