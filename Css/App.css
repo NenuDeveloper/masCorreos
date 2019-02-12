@@ -3,13 +3,14 @@ body {
 }
 
 .inicio {
-    height: 80vh;
+    
     /* background-image: url('../images/bg.png'); */  
+    background-color: #0072C5;
 }
 
 .inicio img {
-    position: absolute;
-    z-index: 0;
+    height: 300px;
+    max-height: 760px;
 }
 
 .space-top-sm {
