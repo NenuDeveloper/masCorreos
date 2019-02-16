@@ -8,6 +8,10 @@ body {
     background-color: #0072C5;
 }
 
+.fax {
+    display: none;
+}
+
 .inicio img {
     height: 300px;
     max-height: 760px;

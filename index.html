@@ -21,6 +21,8 @@
 
     <!-- Title -->
     <title>Mascorreos.com</title>
+    <meta name="description" content="Dios, Cuentas de correo, Sitios web, Máscorreos.com, Apellidos, correo electrónico, email, mensajes, correo, Futbol, Futbol Mexicano, Futbol Europeo, Futbol Americano, Basquetbol, Beisbol, Marcas, México, Política, Instituciones, Religión, @,.com, .club, .email,.mx, .co, .online, Santos, Apostoles, Amor">
+    <meta name="keywords" content="mascorreos.com, correo electrónico, crear correo, MásCorreos">
 </head>
 <body>
     
@@ -207,26 +209,30 @@
         <div class="space-top-lg container">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-1"></div>
-                    <div class="col-md-4 mt-5 mb-5">
+                    <div class="col-1"></div>
+                    <div class="col-4 mt-5 mb-5">
                         <p class="text-uppercase text-info h2 mt-5">Crea tu cuenta o sitio web</p>
                         <p class="text-info text-justify">Crea Tu Cuenta de Correo por solo $30 Pesos MXN al Año
                                 o Crea Tu Sitio Web por solo $30 Pesos MXN al Mes.</p>
                     </div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-6 mt-5 mb-5">
-                        <form class="mt-5">
+                    <div class="col-1"></div>
+                    <div class="col-6 mt-5 mb-5">
+                        <form class="mt-5" method="POST" action="contact.php">
                             <div class="form-group">
                                 <label for="Nombre" class="text-warning">Nombre o Alias Favorito</label>
-                                <input type="text" required class="form-control" id="nombre" placeholder="Nombre o Alias Favorito">
+                                <input type="text" required class="form-control" id="nombre" name="nombre" placeholder="Nombre o Alias Favorito">
                             </div>
                             <div class="form-group">
                                 <label for="Correo" class="text-warning">Correo Actual</label>
-                                <input type="email" required class="form-control" id="correo" placeholder="Correo Actual">
+                                <input type="email" required class="form-control" name="correo" id="correo" placeholder="Correo Actual">
+                            </div>
+                            <div class="fax">
+                                <label for="fax">Fax</label>
+                                <input type="text" name="fax" id="fax">
                             </div>
                             <div class="form-group">
                                 <label for="Telefono" class="text-warning">Teléfono</label>
-                                <input type="number" required class="form-control" id="telefono" placeholder="Teléfono">
+                                <input type="number" required class="form-control" id="telefono" name="telefono" placeholder="Teléfono">
                             </div>
                             <button type="submit" 
                             class="btn btn-warning mb-5 text-uppercase mt-3 text-light"
@@ -544,7 +550,7 @@
     </footer>
 
     <script src="./js/smooth.js"></script>
-    
+    <script>document.querySelector('.fax').style.display = 'none';</script>
     <!--JavaScript at end of body for optimized loading -->
     
     <script src="./js/jquery.min.js"></script>
