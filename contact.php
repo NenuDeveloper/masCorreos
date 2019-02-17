@@ -13,16 +13,17 @@
             //Honey Pot
             if(!empty($_POST['fax'])) {
                 http_response_code(400);
+                echo 'Error';
                 exit;
             }else {
                 
-                $para = 'nenust1@outlook.com';
+                $para = 'correodecarlosrg@hotmail.com';
                 $mensaje = 'Brindar información mas correos,'
-                    . "\n Nombre: "
+                    . "Nombre: "
                     . $_POST['nombre']
-                    . '\n Email: '
+                    . ' - Email: '
                     . $_POST['correo']
-                    . '\n Teléfono: '
+                    . ' - Teléfono: '
                     . $_POST['telefono'];
 
                 $titulo = 'Información Máscorreos.com';
@@ -32,10 +33,15 @@
                     'X-Mailer: PHP/' . phpversion();
 
                 mail($para, $titulo, $mensaje, $headers);
-
+                
+                //Redirect to index.html
+                header("Location: /mascorreos", true, 301);
+                exit();
             }
 
 
+   }else{
+       echo 'Llena correctamente los campos <a href="/mascorreos">Regresar</a>';
    }
 
 ?>
